@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -28,25 +29,21 @@ public class EnemyMovement : MonoBehaviour
         if (moveTimer <= 0)
         {
             hasMoved = false;
-            moveNum = Random.Range(1, 3);
+            moveNum = Random.Range(2, 7);
         }
 
         if (hasMoved == false)
         {
-            //if (moveNum = 1)
+            if (ycooord <max)
             {
-                //move it to same x at line 1
+                transform.Translate(Vector3.y+moveNum);
+            }
+            else
+            {
+                transform.Translate(Vector3.y-moveNum);
             }
 
-           // if (moveNum = 2)
-            {
-                //move it to same x at line 2
-            }
-
-           // if (moveNum = 3)
-            {
-                //move it to same x at line 3
-            }
+            hasMoved = true;
         }
         
     }
