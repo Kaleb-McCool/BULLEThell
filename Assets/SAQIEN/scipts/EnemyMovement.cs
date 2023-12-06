@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -8,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     public float timerMax;
 
     public float moveTimer;
-
+    public GameObject yLoc;
     public bool hasMoved;
     // Start is called before the first frame update
     void Start()
@@ -28,25 +29,21 @@ public class EnemyMovement : MonoBehaviour
         if (moveTimer <= 0)
         {
             hasMoved = false;
-            moveNum = Random.Range(1, 3);
+            moveNum = Random.Range(2, 7);
         }
 
         if (hasMoved == false)
         {
-            //if (moveNum = 1)
+            if (yLoc.transform.position.y <-2)
             {
-                //move it to same x at line 1
+                transform.Translate(transform.position.x, yLoc.transform.position.y + moveNum, transform.position.z);
+            }
+            else
+            {
+                transform.Translate(transform.position.x, yLoc.transform.position.y - moveNum, transform.position.z);
             }
 
-           // if (moveNum = 2)
-            {
-                //move it to same x at line 2
-            }
-
-           // if (moveNum = 3)
-            {
-                //move it to same x at line 3
-            }
+            hasMoved = true;
         }
         
     }
