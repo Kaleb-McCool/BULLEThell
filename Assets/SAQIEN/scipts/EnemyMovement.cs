@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     public float timerMax;
 
     public float moveTimer;
-
+    public GameObject yLoc;
     public bool hasMoved;
     // Start is called before the first frame update
     void Start()
@@ -34,13 +34,13 @@ public class EnemyMovement : MonoBehaviour
 
         if (hasMoved == false)
         {
-            if (ycooord <max)
+            if (yLoc.transform.position.y <-2)
             {
-                transform.Translate(Vector3.y+moveNum);
+                transform.Translate(transform.position.x, yLoc.transform.position.y + moveNum, transform.position.z);
             }
             else
             {
-                transform.Translate(Vector3.y-moveNum);
+                transform.Translate(transform.position.x, yLoc.transform.position.y - moveNum, transform.position.z);
             }
 
             hasMoved = true;
