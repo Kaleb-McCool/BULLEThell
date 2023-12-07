@@ -14,7 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/FINAL/SCRIPTS/GM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cs-curriculum/Assets/Scripts/myScripts/HUD.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -98,6 +100,7 @@
       <workItem from="1701807534819" duration="1061000" />
       <workItem from="1701808643241" duration="3255000" />
       <workItem from="1701885939817" duration="1590000" />
+      <workItem from="1701981740943" duration="4416000" />
     </task>
     <servers />
   </component>
