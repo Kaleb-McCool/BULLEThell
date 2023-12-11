@@ -7,7 +7,8 @@ public class GM : MonoBehaviour
     private static GM gm;
     public int health;
     public int ammo;
-    
+    public int waveNum;
+    public int enemiesLeft;
     void Awake()
     {
         if (gm != null && gm != this)
