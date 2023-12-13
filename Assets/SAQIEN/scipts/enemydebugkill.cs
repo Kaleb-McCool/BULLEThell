@@ -17,7 +17,7 @@ public class enemydebugkill : MonoBehaviour
         if (Input.GetMouseButtonDown(1))
         {
             Destroy(gameObject);
-            gm.enemiesLeft--;
+            gm.enemiesLeft-=1;
         }
     }
 }

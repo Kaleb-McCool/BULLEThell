@@ -17,7 +17,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/FINAL/SCRIPTS/GM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaleb McCool/(Temp)SCRIPTS/PlayerShotohnogangreneisonmytounge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/enemydebugkill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../cs-curriculum/Assets/Scripts/myScripts/HUD.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca84034dc26945f9b8d5d804b879cba8172600/c4/2e1b05f2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,7 +105,7 @@
       <workItem from="1701885939817" duration="1590000" />
       <workItem from="1701981740943" duration="4416000" />
       <workItem from="1702325589773" duration="5641000" />
-      <workItem from="1702500213818" duration="721000" />
+      <workItem from="1702500213818" duration="3195000" />
     </task>
     <servers />
   </component>
