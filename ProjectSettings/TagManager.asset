@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - 3ShotCar
+  - TrackingShotCar
+  - ForwardShotCar
+  - Boss
+  - TrackingBullet
+  - ForwardBullet
   layers:
   - Default
   - TransparentFX
