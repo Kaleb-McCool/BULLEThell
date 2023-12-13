@@ -8,7 +8,7 @@ using Unity.VisualScripting;
 public class WaveSpawner : MonoBehaviour
 {
     public GM gm;
-    public readonly int[] spawns;
+    public int numNUms;
     public int vector3;
 
     public bool doEnemySpawn;
