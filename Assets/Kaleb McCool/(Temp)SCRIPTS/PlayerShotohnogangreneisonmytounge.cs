@@ -18,6 +18,6 @@ public class PlayerShotohnogangreneisonmytounge : MonoBehaviour
     void Update()
     {
         PlayerShotohnogangreneisonmytounge p =  Instantiate(bulletPrefab, transform.position, Quaternion.identity);                   
-        p.bulletSpeed = ((target.gameObject.transform.position - transform.position).normalized * 7);
+        p.bulletSpeed = ((bowlet.gameObject.transform.position - transform.position).normalized * 7);
     }
 }
