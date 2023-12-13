@@ -37,42 +37,48 @@ public class WaveSpawner : MonoBehaviour
 
         if (gm.waveNum == 2 && doEnemySpawn == true)
         {
-            //Istantiate(TrackingCar in Lane 2)
-            //Istantiate(TrackingCar in Lane 3)
+            //Instantiate(TrackingCar in Lane 2)
+            //Instantiate(TrackingCar in Lane 3)
             doEnemySpawn = false;
         }
         if (gm.waveNum == 3 && doEnemySpawn == true)
         {
-            //Istantiate(ForwardCar in Lane 1)
-            //Istantiate(ForwardCar in Lane 2)
+            //Instantiate(ForwardCar in Lane 1)
+            //Instantiate(ForwardCar in Lane 2)
             //Instantiate(TrackingCar in Lane 4)
             doEnemySpawn = false;
         }
         if (gm.waveNum == 4 && doEnemySpawn == true)
         {
-            //Istantiate(TrackingCar in Lane 2)
-            //Istantiate(TrackingCar in Lane 3)
+            //Instantiate(3ShotCar in Lane 2)
+            //Instantiate(3ShotCar in Lane 3)
             doEnemySpawn = false;
         }if (gm.waveNum == 5 && doEnemySpawn == true)
         {
-            //Istantiate(TrackingCar in Lane 2)
-            ////Istantiate(TrackingCar in Lane 3)
+            //Instantiate(ForwardCar in Lane 1)
+            //Instantiate(TrackingCar in Lane 2)
+            //Instantiate(3ShotCar in Lane 3)
             doEnemySpawn = false;
         }if (gm.waveNum == 6 && doEnemySpawn == true)
         {
-            //Istantiate(TrackingCar in Lane 2)
-            ////Istantiate(TrackingCar in Lane 3)
+            //Instantiate(TrackingCar in Lane 1)
+            //Instantiate(TrackingCar in Lane 2)
+            //Instantiate(TrackingCar in Lane 3)
+            //Instantiate(ForwardCar in Lane 4)
             doEnemySpawn = false;
         }if (gm.waveNum == 7 && doEnemySpawn == true)
         {
-            //Istantiate(TrackingCar in Lane 2)
-            //Istantiate(TrackingCar in Lane 3)
+            //Instantiate(ForwardCar in Lane 1)
+            //Instantiate(ForwardCar in Lane 2)
+            //Instantiate(ForwardCar in Lane 3)
+            //Instantiate(TrackingCar in Lane 4
             doEnemySpawn = false;
         }if (gm.waveNum == 8 && doEnemySpawn == true)
         {
             //Instantiate(TrackingCar in Lane 1)
-            //Istantiate(TrackingCar in Lane 2)
-            //Istantiate(TrackingCar in Lane 3)
+            //Instantiate(TrackingCar in Lane 2)
+            //Instantiate(TrackingCar in Lane 3)
+            //Instantiate(TrackingCar in Lane 4)
             doEnemySpawn = false;
         }
         if (gm.waveNum == 9 && doEnemySpawn == true)
