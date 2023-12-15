@@ -4,10 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - playerBullet
-  - TrackingShotCar
-  - ForwardShotCar
-  - 3ShotCar
+  - enemy
   layers:
   - Default
   - TransparentFX

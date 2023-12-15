@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
         // Start is called before the first frame update
     void Start()
     {
-        timerMax = 2.0f;
+        timerMax = 5.0f;
         moveTimer = timerMax;
         loc1 = 1;
         loc2 = 2;
@@ -31,7 +31,7 @@ public class EnemyMovement : MonoBehaviour
         }
         if (moveTimer <= 0)
         {
-            moveNum = Random.Range(1, 3);
+            moveNum = Random.Range(1, 4);
             hasMoved = false;
         }
 
