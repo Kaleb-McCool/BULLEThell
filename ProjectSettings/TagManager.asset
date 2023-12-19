@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - enemy
+  - TrackingShotCar
+  - playerBullet
+  - ForwardShotCar
+  - ThreeShotCar
+  - Lane1Spawner
+  - Lane2Spawner
+  - Lane3Spawner
+  - Lane4Spawner
   layers:
   - Default
   - TransparentFX

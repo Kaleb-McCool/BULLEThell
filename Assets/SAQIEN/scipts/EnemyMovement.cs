@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
         // Start is called before the first frame update
     void Start()
     {
-        timerMax = 5.0f;
+        timerMax = 3.0f;
         moveTimer = timerMax;
         loc1 = 1;
         loc2 = 2;
