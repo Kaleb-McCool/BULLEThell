@@ -12,6 +12,7 @@ public class GM : MonoBehaviour
     public int waveNum;
     public int enemiesLeft;
     public TextMeshProUGUI bulletCountText;
+    public TextMeshProUGUI healthText;
     void Awake()
     {
         if (gm != null && gm != this)
@@ -34,5 +35,6 @@ public class GM : MonoBehaviour
     void Update()
     {
         bulletCountText.text = "Bullets:" + bulletCount;
+        healthText.text = "Health: " + health;
     }
 }
