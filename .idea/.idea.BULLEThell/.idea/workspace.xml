@@ -16,8 +16,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/FINAL/SCRIPTS/GM.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Kaleb McCool/(Temp)SCRIPTS/PlayerShotohnogangreneisonmytounge.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/enemydebugkill.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/EnemyShooting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SAQIEN/scipts/WaveSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../cs-curriculum/Assets/Scripts/myScripts/HUD.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ca84034dc26945f9b8d5d804b879cba8172600/c4/2e1b05f2/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -47,15 +47,15 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\mccoo\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\mccoo\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\mccoo\\AppData\\Local\\Symbols\\src&quot;
+      &quot;/Users/swheatley5835/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/swheatley5835/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/swheatley5835/.local/share/Symbols/src&quot;
     ]
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\2022.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -63,7 +63,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\2022.3.7f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -107,8 +107,8 @@
       <workItem from="1702325589773" duration="5641000" />
       <workItem from="1702500213818" duration="4127000" />
       <workItem from="1702674522929" duration="3135000" />
-      <workItem from="1703134408847" duration="452000" />
-      <workItem from="1703135648053" duration="2003000" />
+      <workItem from="1703017763519" duration="4559000" />
+      <workItem from="1703190097671" duration="1581000" />
     </task>
     <servers />
   </component>
